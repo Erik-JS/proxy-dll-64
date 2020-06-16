@@ -27,7 +27,6 @@ void loadPlugins(const char *folder)
 				strcpy (currfile, folder);
 				strcat (currfile, "\\");
 				strcat (currfile, fd.cFileName);
-				LoadLibrary(currfile);
 				if (LoadLibrary (currfile))
 					logprintf(">>Plugin loaded: %s\n", currfile);
 				else
