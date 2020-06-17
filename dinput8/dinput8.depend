@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1487423444 source:c:\users\erik\github\proxy-dll-64\sharedcode\logging.cpp
+	"Logging.h"
+
+1487419612 c:\users\erik\github\proxy-dll-64\sharedcode\logging.h
+	<windows.h>
+	<shlobj.h>
+	<stdio.h>
+	<time.h>
+	<shlwapi.h>
+
+1592334808 source:c:\users\erik\github\proxy-dll-64\sharedcode\pluginloader.cpp
+	"PluginLoader.h"
+	"Logging.h"
+
+1592337830 c:\users\erik\github\proxy-dll-64\sharedcode\pluginloader.h
+	<windows.h>
+
+1592339324 source:c:\users\erik\github\proxy-dll-64\dinput8\main.cpp
+	"main.h"
+	"../sharedcode/Logging.h"
+	"../sharedcode/PluginLoader.h"
+
+1592336331 c:\users\erik\github\proxy-dll-64\dinput8\main.h
+	<windows.h>
+

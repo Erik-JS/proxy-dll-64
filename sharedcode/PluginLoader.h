@@ -3,7 +3,7 @@
 
 #include <windows.h>
 
-int GetPluginLoadCount()
+int GetPluginLoadCount();
 void loadPlugins(const char *folder);
 
 #endif
