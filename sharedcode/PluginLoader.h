@@ -2,8 +2,9 @@
 #define PLUGINLOADER_H
 
 #include <windows.h>
+#include <shlwapi.h>
 
 int GetPluginLoadCount();
-void loadPlugins(const char *folder);
+void loadPlugins(LPCSTR subfolder);
 
 #endif
