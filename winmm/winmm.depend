@@ -9,12 +9,13 @@
 	<time.h>
 	<shlwapi.h>
 
-1592334808 source:c:\users\erik\github\proxy-dll-64\sharedcode\pluginloader.cpp
+1592671837 source:c:\users\erik\github\proxy-dll-64\sharedcode\pluginloader.cpp
 	"PluginLoader.h"
 	"Logging.h"
 
-1592337830 c:\users\erik\github\proxy-dll-64\sharedcode\pluginloader.h
+1592671992 c:\users\erik\github\proxy-dll-64\sharedcode\pluginloader.h
 	<windows.h>
+	<shlwapi.h>
 
 1592353708 source:c:\users\erik\github\proxy-dll-64\winmm\main.cpp
 	"main.h"
