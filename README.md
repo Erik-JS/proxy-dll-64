@@ -21,7 +21,7 @@ Believe it or not, I contacted the creator of Miles Sound System, John Miles, vi
 I implemented here the same scheme I used with the [Binkw32 proxy DLL's for Mass Effect 1, 2 and 3](https://github.com/Erik-JS/masseffect-binkw32).<br />
 The proxy DLL will attempt to load ASI plugins from a subfolder "ASI", and if it doesn't find anything there, then it'll load from the current folder.<br />
 The ASI loading function in this repo and on Binkw32's is based on [XLiveless](https://gtaforums.com/topic/388658-relgtaiv-xliveless/) made by Stanislav "listener" Golovin. There's no secret: it performs a file search for "*.asi" and attempts to load what it founds.<br />
-The loading function has been tweaked by me so it looks for plugins in a given folder while counting what has been already loaded. This is intentionally done to avoid loading plugins with the same name from different places. See Erik-JS/masseffect-binkw32#12.
+The loading function has been tweaked by me so it looks for plugins in a given subfolder, relative to where the game's executable is, while counting what has been already loaded. This is intentionally done to avoid loading plugins with the same name from different places. See [Erik-JS/masseffect-binkw32#12](https://github.com/Erik-JS/masseffect-binkw32/issues/12).
 
 ## How things work
 
