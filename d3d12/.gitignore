@@ -1,0 +1,5 @@
+*
+!.gitignore
+!d3d12.cbp
+!main.cpp
+!main.h
