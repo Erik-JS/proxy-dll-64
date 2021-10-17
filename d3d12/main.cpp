@@ -4,7 +4,7 @@
 #include "../sharedcode/PluginLoader.h"
 
 HMODULE originalD3D12 = NULL;
-UINT64 p[51];
+UINT64 p[18];
 
 void loadOriginalD3D12()
 {
@@ -40,7 +40,7 @@ DWORD WINAPI Start(LPVOID lpParam)
     loadOriginalD3D12();
     if(!originalD3D12)
     {
-        logprintf(">>Error loading original D3D11.DLL!\n");
+        logprintf(">>Error loading original D3D12.DLL!\n");
         logEnd();
         return 0;
     }
